@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo" data-page="home">Anime List</div>
+        <div class="nav-links">
+            <a href="index.html" data-page="top">Top Anime</a>
+            <a href="index.html" data-page="search">Search</a>
+        </div>
+    </nav>
+
+    <main id="content">
+        <div id="loading" class="loading-spinner hidden">Loading...</div>
+        <div id="error-message" class="error-message hidden"></div>
+        
+        <div class="anime-details-container" id="anime-details-container">
+            <button id="back-button" class="back-button">← Back</button>
+            <!-- Anime details will be dynamically inserted here -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
