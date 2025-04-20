@@ -1,4 +1,4 @@
-<h1>anime catalog list (updated with details page)</h1>
+<h1>prototype 2: anime catalog list (updated with details page)</h1>
 <p>a simple web application that allows users to search for anime titles and view details of each anime.</p>
 
 <h2>features</h2>
